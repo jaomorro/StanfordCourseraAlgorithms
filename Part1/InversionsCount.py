@@ -1,6 +1,6 @@
 """
 Count the number of inversions in a given list of ints
-piggybacks off of merge sort
+Piggybacks off of merge sort
 """
 
 def merge(arr1,arr2,cnt):
