@@ -46,7 +46,7 @@ def dijkstra_algo(g,start):
 
 
 def main():
-    file = "DijkstraData.txt"
+    file = "Data/DijkstraData.txt"
     adj_list = load_graph(file)
     dij_output = dijkstra_algo(adj_list,1)
 

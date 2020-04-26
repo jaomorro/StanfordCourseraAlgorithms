@@ -40,7 +40,7 @@ def find_median(nums):
     return median
 
 def main():
-    file_name = "HeapData.txt"
+    file_name = "Data/HeapData.txt"
     nums = read_data(file_name)
     median = find_median(nums)
     print(median)

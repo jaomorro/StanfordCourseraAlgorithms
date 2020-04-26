@@ -57,7 +57,7 @@ def target_nums(data,target_range):
     return len(target_nums)
 
 def main():
-    file_name = "HashData.txt"
+    file_name = "Data/HashData.txt"
     data = retrieve_data(file_name)
     result = target_nums(data,[-10000,10000])
     print(f"result = {result}")

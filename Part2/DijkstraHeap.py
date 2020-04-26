@@ -46,7 +46,7 @@ def dijkstra_heap(graph,start):
     return distances
 
 def main():
-    file = "DijkstraData.txt"
+    file = "Data/DijkstraData.txt"
     graph = load_graph(file)
     result = dijkstra_heap(graph,1)
     print(result)
