@@ -1,5 +1,7 @@
 """
 Dijkstra's algorithm using a heap
+Computs length from starting vertex to every other vertex in graph
+    Edge lengths must be non-negative
 """
 
 import heapq

@@ -75,7 +75,7 @@ if __name__ == "__main__":
         # loop through all the 1/0s in the bit so we can get the hamming dist 1 and 2
         # there is definitely a better way to do this but I am doing a double loop to
         #   outer loop alters each integer for hamming distance 1
-        #   innser loop alters another integer then for hamming distance 2
+        #   inner loop alters another integer then for hamming distance 2
         for j in range(len(bit_num)):
             bit_num_list = list(bit_num)
             if bit_num[j] == '0':
